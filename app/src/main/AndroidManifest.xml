@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CRUD_SQLite">
         <activity
+            android:name=".ListarAlunosActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
